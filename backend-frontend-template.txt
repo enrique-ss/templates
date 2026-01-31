@@ -11,6 +11,7 @@ mkdir src\controllers
 mkdir src\middlewares
 mkdir src\routes
 
+type nul > README.md
 type nul > public\index.html
 type nul > public\script.js
 type nul > public\style.css
