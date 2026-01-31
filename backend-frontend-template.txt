@@ -1,0 +1,44 @@
+cd %USERPROFILE%\Desktop
+
+mkdir backend-frontend-template
+cd backend-frontend-template
+
+mkdir docs
+mkdir public
+mkdir src
+
+mkdir src\controllers
+mkdir src\middlewares
+mkdir src\routes
+
+type nul > public\index.html
+type nul > public\script.js
+type nul > public\style.css
+
+type nul > src\controllers\AluguelController.ts
+type nul > src\controllers\AuthController.ts
+type nul > src\controllers\LivroController.ts
+type nul > src\controllers\UsuarioController.ts
+
+type nul > src\middlewares\auth.ts
+
+type nul > src\routes\aluguelRoutes.ts
+type nul > src\routes\authRoutes.ts
+type nul > src\routes\livroRoutes.ts
+type nul > src\routes\usuarioRoutes.ts
+
+type nul > src\cli.ts
+type nul > src\database.ts
+type nul > src\index.ts
+type nul > src\setup.ts
+
+type nul > .env.example
+type nul > .gitattributes
+type nul > .gitignore
+type nul > nodemon.json
+type nul > package.json
+type nul > package-lock.json
+type nul > README.md
+type nul > tsconfig.json
+
+code .

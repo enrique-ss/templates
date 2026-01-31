@@ -1,0 +1,14 @@
+cd %USERPROFILE%\Desktop
+
+mkdir website-template
+cd website-template
+
+mkdir css
+mkdir js
+mkdir resources
+
+type nul > index.html
+type nul > css\style.css
+type nul > js\script.js
+
+code .
