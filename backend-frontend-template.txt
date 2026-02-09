@@ -5,16 +5,18 @@ cd backend-frontend-template
 
 mkdir docs
 mkdir public
+mkdir public\css
+mkdir public\js
+mkdir public\resources
 mkdir src
-
 mkdir src\controllers
 mkdir src\middlewares
 mkdir src\routes
 
 type nul > README.md
 type nul > public\index.html
-type nul > public\script.js
-type nul > public\style.css
+type nul > public\css\style.css
+type nul > public\js\script.js
 
 type nul > src\controllers\AluguelController.ts
 type nul > src\controllers\AuthController.ts
@@ -39,7 +41,6 @@ type nul > .gitignore
 type nul > nodemon.json
 type nul > package.json
 type nul > package-lock.json
-type nul > README.md
 type nul > tsconfig.json
 
 code .
