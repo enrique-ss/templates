@@ -7,7 +7,10 @@ Templates de estrutura de projetos para desenvolvimento rápido.
 ```
 ### Backend + Frontend
 backend-frontend-template/
-├── public/           # Frontend
+├── public/
+|   ├── css/
+│   ├── js/
+│   └── html/           
 ├── src/
 │   ├── controllers/
 │   ├── middlewares/
