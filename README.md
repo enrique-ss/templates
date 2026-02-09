@@ -1,39 +1,60 @@
 # 📁 Project Templates
-
 Templates de estrutura de projetos para desenvolvimento rápido.
 
-## 🗂️ Templates
+## 🗂️ Templates Disponíveis
 
+### 📦 Backend + Frontend
+Template completo com TypeScript, Express e frontend estático.
 ```
-### Backend + Frontend
 backend-frontend-template/
+├── docs/
 ├── public/
-|   ├── css/
+│   ├── css/
+│   │   └── style.css
 │   ├── js/
+│   │   └── script.js
 │   ├── resources/
-│   └── index.html          
+│   └── index.html
 ├── src/
 │   ├── controllers/
+│   │   ├── AluguelController.ts
+│   │   ├── AuthController.ts
+│   │   ├── LivroController.ts
+│   │   └── UsuarioController.ts
 │   ├── middlewares/
-│   └── routes/
-└── package.json
+│   │   └── auth.ts
+│   ├── routes/
+│   │   ├── aluguelRoutes.ts
+│   │   ├── authRoutes.ts
+│   │   ├── livroRoutes.ts
+│   │   └── usuarioRoutes.ts
+│   ├── cli.ts
+│   ├── database.ts
+│   ├── index.ts
+│   └── setup.ts
+├── .env.example
+├── .gitattributes
+├── .gitignore
+├── nodemon.json
+├── package.json
+├── package-lock.json
+├── README.md
+└── tsconfig.json
+```
 
-### Website
+### 🌐 Website
+Template simples para sites estáticos.
+```
 website-template/
 ├── css/
+│   └── style.css
 ├── js/
+│   └── script.js
 ├── resources/
-└── index.html
+├── index.html
+└── README.md
 ```
 
 ## 🚀 Como Usar
 
-Clone o repo, execute o script no CMD, estrutura criada automaticamente na área de trabalho.
-
-## 🔧 Próximos
-
-React + Vite • Express + MongoDB • Next.js • Python Flask/FastAPI
-
----
-
-⭐ Dê uma estrela se ajudou!
+Abra o arquivo `.txt` do template desejado, copie os comandos e execute no CMD. A estrutura será criada automaticamente na área de trabalho.
