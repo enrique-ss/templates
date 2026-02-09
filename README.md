@@ -10,7 +10,8 @@ backend-frontend-template/
 ├── public/
 |   ├── css/
 │   ├── js/
-│   └── html/           
+│   ├── resources/
+│   └── index.html          
 ├── src/
 │   ├── controllers/
 │   ├── middlewares/
