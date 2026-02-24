@@ -1,60 +1,17 @@
-# 📁 Project Templates
-Templates de estrutura de projetos para desenvolvimento rápido.
+# Templates para Projetos
 
-## 🗂️ Templates Disponíveis
+Templates de estrutura de projetos para desenvolvimento rápido. Abra o arquivo `.txt` do template desejado, copie os comandos e execute no CMD. A estrutura é criada automaticamente na área de trabalho.
 
-### 📦 Backend + Frontend
-Template completo com TypeScript, Express e frontend estático.
-```
-backend-frontend-template/
-├── docs/
-├── public/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── script.js
-│   ├── resources/
-│   └── index.html
-├── src/
-│   ├── controllers/
-│   │   ├── AluguelController.ts
-│   │   ├── AuthController.ts
-│   │   ├── LivroController.ts
-│   │   └── UsuarioController.ts
-│   ├── middlewares/
-│   │   └── auth.ts
-│   ├── routes/
-│   │   ├── aluguelRoutes.ts
-│   │   ├── authRoutes.ts
-│   │   ├── livroRoutes.ts
-│   │   └── usuarioRoutes.ts
-│   ├── cli.ts
-│   ├── database.ts
-│   ├── index.ts
-│   └── setup.ts
-├── .env.example
-├── .gitattributes
-├── .gitignore
-├── nodemon.json
-├── package.json
-├── package-lock.json
-├── README.md
-└── tsconfig.json
-```
+## Templates disponíveis
 
-### 🌐 Website
-Template simples para sites estáticos.
-```
-website-template/
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── resources/
-├── index.html
-└── README.md
-```
+**Backend + Frontend** — estrutura completa com TypeScript, Express, MySQL, autenticação JWT, rotas separadas por entidade, CLI e frontend estático integrado.
 
-## 🚀 Como Usar
+**Website** — estrutura simples para sites estáticos com HTML, CSS e JavaScript.
 
-Abra o arquivo `.txt` do template desejado, copie os comandos e execute no CMD. A estrutura será criada automaticamente na área de trabalho.
+## Stack
+
+CMD. Os projetos gerados usam TypeScript, Node.js, Express e MySQL.
+
+---
+
+Desenvolvido por Luiz Enrique.
