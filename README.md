@@ -4,9 +4,9 @@ Templates de estrutura de projetos para desenvolvimento rápido. Abra o arquivo 
 
 ## Templates disponíveis
 
-**Backend + Frontend** — estrutura completa com TypeScript, Express, MySQL, autenticação JWT, rotas separadas por entidade, CLI e frontend estático integrado.
+**Backend + Frontend:** estrutura completa com TypeScript, Express, MySQL, autenticação JWT, rotas separadas por entidade, CLI e frontend estático integrado.
 
-**Website** — estrutura simples para sites estáticos com HTML, CSS e JavaScript.
+**Website:** estrutura simples para sites estáticos com HTML, CSS e JavaScript.
 
 ## Stack
 
